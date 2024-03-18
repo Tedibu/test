@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.main2 {
+    background-color: black;
+    padding: 50px 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main2 img {
+    width: 100px;
+    height: 125px;
+    border-radius: 100%;
+}
+.main2 p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.main2{
+    color: aqua;
+    font-weight: bold;
+
+}
+.main2 .infa{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.main2 .infa p{
+    background-color: rgb(160, 8, 102);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.main2 .infa p:hover{
+    background-color: hsl(29, 93%, 24%);
+    color: black;
+}
+.main2 .infa p:active{
+    background-color: hsl(69, 92%, 43%);
+    color: rgb(160, 30, 30);
+}
+
